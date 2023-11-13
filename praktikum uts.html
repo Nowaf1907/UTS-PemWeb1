@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Form Registrasi Rekreasi Kuliner</legend>
+        <div style="display: flex;">
+            <aside style="margin-left: 150px;">
+                <form action="" method="POST">
+                    <table>
+                        <tr>
+                            <td>Nama Tempat Wisata:</td>
+                            <td><input type="text" name="Nama Wisata" placeholder="Enter Nama Wisata"></td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Wisata:</td>
+                            <td>
+                                <select>
+                                    <option value="bola">Festival Makanan</option>
+                                    <option value="basket">Taman Anak-Anak</option>
+                                    <option value="tenis">Restoran</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Deskripsi Wisata:</td>
+                            <td><textarea name="description" placeholder="Enter Description Here" cols="30" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Kontak Person:</td>
+                            <td><input type="text" name="Kontak Person"></td>
+                        </tr>
+                        <tr>
+                            <td>No HP/Telepon:</td>
+                            <td><input type="text" name="No HP/Telepon"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="email" placeholder="Enter Email Here" ></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat Web:</td>
+                            <td><input type="text" name="web" placeholder="http://"></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat Lengkap:</td>
+                            <td><textarea name="description" placeholder="Enter Description Here" cols="30" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Latitude,Longitude</td>
+                            <td><input type="text" name="Latitude,Longitude"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="proses" value="Daftar" style="box-shadow: 4px 3px 2px black; color:white; background-color: blue;"></td>
+                            <td><input type="reset" name="unproses" value="Batal" style="box-shadow: 4px 3px 2px black; color:white; background-color: red;"></td>
+                        </tr>
+                    </table>
+                </form>
+            </aside>
+        </div>
+</body>
+</html>
